@@ -14,13 +14,16 @@ body {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 10px 85px;
+
 }
 
 .nav h1 {
     color: rgb(13, 19, 33);
     font-size: 28px;
     font-weight: 800;
+    padding: 10px 24px;
+    margin: 25px 85px;
+    
 }
 
 .nav button {
@@ -28,14 +31,14 @@ body {
     background-color: white;
     font-size: 20px;
     font-weight: 600;
-    padding: 17px 24px;
-    margin: 32px 85px;
+    padding: 10px 24px;
+    margin: 25px 85px;
     border: 2px solid rgba(13, 19, 33, 0.8);
     border-radius: 8px;
 }
 
 .hero-section {
-    width: 1190px;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -52,6 +55,7 @@ body {
 }
 
 .hero-section-content {
+    width: 1190px;
     padding: 0 150px;
     text-align: center;
 }
