@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Azeret Mono", monospace;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 32px 85px;
+}
+
+.nav>button {
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    /* Download Resume */
+    justify-content: center;
+    align-items: center;
+    padding: 17px 24px 17px 24px;
+    margin: 32px 85px;
+    border: 2px solid rgba(13, 19, 33, 0.8);
+    border-radius: 8px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    align-items: center;
+    background-image: url(./img/Hero-bg.png);
+    height: 652px;
+}
+
+.hero-section>img {
+    padding: 40px 0;
+    width: 240.28px;
+    height: 240px;
+}
+
+.hero-section-content {
+    padding: 0 221px;
+}
+
+.hero-section-content>h1 {
+    text-align: center;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.hero-section-content>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero-section>button {
+    width: 250px;
+    height: 66px;
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 21px 24px 21px 24px;
+    margin: 32px 0px;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+}
