@@ -12,8 +12,9 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     text-align: center;
-    padding: 32px 85px;
+    padding: 10px 85px;
 }
 
 .nav h1 {
@@ -34,6 +35,7 @@ body {
 }
 
 .hero-section {
+    width: 1190px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -50,7 +52,7 @@ body {
 }
 
 .hero-section-content {
-    padding: 0 221px;
+    padding: 0 150px;
     text-align: center;
 }
 
@@ -69,13 +71,16 @@ body {
     margin: 10px auto;
 }
 
-.hero-section button {
+.button {
     width: 250px;
     height: 66px;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 600;
     padding: 21px 24px;
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
     border-radius: 8px;
     background: rgb(13, 19, 33);
     margin: 32px 0px;
@@ -87,7 +92,7 @@ body {
 /* second-section-starts */
 .second-section-margin {
     width: 1140px;
-    padding: 80px 97px;
+    padding: 80px 80px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     margin: 0 auto;
@@ -141,15 +146,19 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
-    margin-bottom: 40px;
+    padding: 40px 20px;
+    margin: 38px 0px;
+    text-align: left;
 
 }
 
 .second-row-contents,
-.third-row-contents {
+.third-row-contents,.fourth-row-contents {
     width: 477px;
     text-align: left;
+    padding: 20px;
+    justify-content: space-between;
+
 }
 
 .second-row-contents h3,
@@ -160,6 +169,7 @@ body {
     font-weight: 700;
     line-height: 36px;
     padding-bottom: 14px;
+  
 }
 
 .second-row-contents p,
@@ -198,8 +208,8 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
-    margin-bottom: 40px;
+    padding: 40px 20px;
+    margin: 38px 0px;
 }
 
 /* 3rd row of second-section ends here*/
@@ -212,8 +222,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
-    margin-bottom: 40px;
+    padding: 40px 20px;
+    margin: 38px 0px;
 }
 
 /* Second-section ends here*/
@@ -269,6 +279,9 @@ body {
     border-radius: 16px;
     padding: 32px;
 
+}
+iframe{
+    border-radius: 8px;
 }
 
 /* third section ends here */
@@ -505,7 +518,7 @@ body {
     padding: 64px 48px;
     border-radius: 16px;
     background-image: url(./img/handshake.jpg);
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.3);
     background-blend-mode: overlay;
     margin: 50px auto;
 }
