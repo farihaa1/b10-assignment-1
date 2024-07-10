@@ -148,118 +148,7 @@ body {
 
 /* 2nd row of second-section starts here */
 
-.second-row{
-width: 850px;
-height: 240px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 48px;
-
-}
-
-.second-row>.second-row-contents{
-    width: 477px;
-height: 220px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-margin: 0px 10px;
-align-self: stretch;
-}
-.second-row>.second-row-contents>h3{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-padding: 0 0 14px 0;
-}
-.second-row>.second-row-contents>p{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-padding: 0 0 38px 0;
-}
-
-.second-row>.second-row-contents>button{
-    position: static;
-width: 200px;
-height: 48px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-}
-/* 2nd row of second-section ends here*/
-
-/* 3rd row of second-section starts here */
-
-.third-row{
-    width: 850px;
-    height: 240px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    padding: 48px;
-}
-
-.third-row>.third-row-contents{
-    width: 477px;
-height: 220px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 0px;
-margin: 0px 10px;
-align-self: stretch;
-}
-.third-row>.third-row-contents>h3{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 24px;
-font-weight: 700;
-padding: 0 0 14px 0;
-}
-.third-row>.third-row-contents>p{
-    color: rgba(13, 19, 33, 0.7);
-font-family: Azeret Mono;
-font-size: 16px;
-font-weight: 400;
-padding: 0 0 38px 0;
-}
-
-.third-row>.third-row-contents>button{
-    position: static;
-width: 200px;
-height: 48px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 12px 20px 12px 20px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-}
-
-/* 3rd row of second-section ends here*/
-
-/* 4th row of second-section starts here */
-.fourth-row{
+.second-row {
     width: 850px;
     height: 240px;
     display: flex;
@@ -267,9 +156,11 @@ font-weight: 600;
     justify-content: space-between;
     align-items: center;
     padding: 48px;
-    }
-    .fourth-row>.fourth-row-contents{
-        width: 477px;
+
+}
+
+.second-row>.second-row-contents {
+    width: 477px;
     height: 220px;
     display: flex;
     flex-direction: column;
@@ -278,24 +169,26 @@ font-weight: 600;
     padding: 0px;
     margin: 0px 10px;
     align-self: stretch;
-    }
-    .fourth-row>.fourth-row-contents>h3{
-        color: rgba(13, 19, 33, 0.7);
+}
+
+.second-row>.second-row-contents>h3 {
+    color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
     padding: 0 0 14px 0;
-    }
-    .fourth-row>.fourth-row-contents>p{
-        color: rgba(13, 19, 33, 0.7);
+}
+
+.second-row>.second-row-contents>p {
+    color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
     padding: 0 0 38px 0;
-    }
-    
-    .fourth-row>.fourth-row-contents>button{
-        position: static;
+}
+
+.second-row>.second-row-contents>button {
+    position: static;
     width: 200px;
     height: 48px;
     /* Auto layout */
@@ -308,4 +201,332 @@ font-weight: 600;
     font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    }
+}
+
+/* 2nd row of second-section ends here*/
+
+/* 3rd row of second-section starts here */
+
+.third-row {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.third-row>.third-row-contents {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 10px;
+    align-self: stretch;
+}
+
+.third-row>.third-row-contents>h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 14px 0;
+}
+
+.third-row>.third-row-contents>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 38px 0;
+}
+
+.third-row>.third-row-contents>button {
+    position: static;
+    width: 200px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* 3rd row of second-section ends here*/
+
+/* 4th row of second-section starts here */
+.fourth-row {
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.fourth-row>.fourth-row-contents {
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 10px;
+    align-self: stretch;
+}
+
+.fourth-row>.fourth-row-contents>h3 {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 14px 0;
+}
+
+.fourth-row>.fourth-row-contents>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 38px 0;
+}
+
+.fourth-row>.fourth-row-contents>button {
+    position: static;
+    width: 200px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Second-section ends here*/
+
+/* Third-section starts here*/
+
+.third-section {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 80px auto 80px;
+}
+
+.third-section>.third-section-contents {
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    margin: 38px 0px;
+}
+
+.third-section>.third-section-contents>h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0 0 20px 0px;
+    text-align: center;
+}
+
+.third-section>.third-section-contents>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.third-section>.Inspiration-video {
+    border: 1;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+/* third section ends here */
+
+/* fourth section starts here */
+.fourth-section {
+    width: 1140px;
+    height: 775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    margin: 80px auto 80px;
+}
+
+.fourth-section>.fourth-section-heading {
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    margin: 38px 0px;
+}
+
+.fourth-section>.fourth-section-heading>h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0 0 20px 0px;
+    text-align: center;
+}
+
+.fourth-section>.fourth-section-heading>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.fourth-section-skills {
+    width: 1140px;
+    height: 299px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 48px 0px;
+}
+
+.fourth-section-skills>.skill-1 {
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 24px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.fourth-section-skills>.skill-1>h2,
+.skill-2>h2,
+.skill-3>h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    text-align: left;
+    margin: 0 auto 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 8px 0px;
+}
+
+.fourth-section-skills>.skill-1>img,
+.skill-2>img,
+.skill-3>img {
+    width: 56px;
+    height: 56px;
+    text-align: left;
+
+}
+
+.fourth-section-skills>.skill-1>p,
+.skill-2>p,
+.skill-3>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    text-align: left;
+    margin: 8px 0px;
+    text-align: left;
+}
+
+.fourth-section-skills>.skill-1>a,
+.skill-2>a,
+.skill-3>a {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 24px 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+}
+
+.fourth-section-skills>.skill-2 {
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 0px 24px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.fourth-section-skills>.skill-3 {
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 40px;
+    margin: 24px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* fourth section ends here */
+
+/* fifth section starts here */
