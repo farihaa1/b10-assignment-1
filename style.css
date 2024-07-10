@@ -16,7 +16,7 @@ body {
 
 }
 
-h1 {
+.nav>h1 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 28px;
@@ -87,3 +87,225 @@ h1 {
     border-radius: 8px;
     background: rgb(13, 19, 33);
 }
+
+/* hero-section ends here */
+
+
+/* second-section-starts */
+.second-section-margin {
+    width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    padding: 80px 97px 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.second-section {
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px auto;
+}
+
+.second-section>.first-row {
+    width: 852px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+
+    margin: 38px 0px;
+}
+
+.second-section>.first-row>h1 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0 0 20px 0px;
+    text-align: center;
+}
+
+.second-section>.first-row>p {
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* 1st row of second-section ends here*/
+
+/* 2nd row of second-section starts here */
+
+.second-row{
+width: 850px;
+height: 240px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 48px;
+
+}
+
+.second-row>.second-row-contents{
+    width: 477px;
+height: 220px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 0px 10px;
+align-self: stretch;
+}
+.second-row>.second-row-contents>h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+padding: 0 0 14px 0;
+}
+.second-row>.second-row-contents>p{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding: 0 0 38px 0;
+}
+
+.second-row>.second-row-contents>button{
+    position: static;
+width: 200px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+/* 2nd row of second-section ends here*/
+
+/* 3rd row of second-section starts here */
+
+.third-row{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+}
+
+.third-row>.third-row-contents{
+    width: 477px;
+height: 220px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+margin: 0px 10px;
+align-self: stretch;
+}
+.third-row>.third-row-contents>h3{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: 700;
+padding: 0 0 14px 0;
+}
+.third-row>.third-row-contents>p{
+    color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+padding: 0 0 38px 0;
+}
+
+.third-row>.third-row-contents>button{
+    position: static;
+width: 200px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+
+/* 3rd row of second-section ends here*/
+
+/* 4th row of second-section starts here */
+.fourth-row{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px;
+    }
+    .fourth-row>.fourth-row-contents{
+        width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin: 0px 10px;
+    align-self: stretch;
+    }
+    .fourth-row>.fourth-row-contents>h3{
+        color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0 0 14px 0;
+    }
+    .fourth-row>.fourth-row-contents>p{
+        color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 0 38px 0;
+    }
+    
+    .fourth-row>.fourth-row-contents>button{
+        position: static;
+    width: 200px;
+    height: 48px;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 20px 12px 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    }
