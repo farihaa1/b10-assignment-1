@@ -13,27 +13,21 @@ body {
     display: flex;
     justify-content: space-between;
     text-align: center;
-
+    padding: 32px 85px;
 }
 
-.nav>h1 {
+.nav h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 28px;
     font-weight: 800;
-    margin: 32px 85px;
 }
 
-.nav>button {
+.nav button {
     color: rgb(13, 19, 33);
     background-color: white;
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    /* Download Resume */
-    justify-content: center;
-    align-items: center;
-    padding: 17px 24px 17px 24px;
+    padding: 17px 24px;
     margin: 32px 85px;
     border: 2px solid rgba(13, 19, 33, 0.8);
     border-radius: 8px;
@@ -43,49 +37,48 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px auto;
     align-items: center;
     background-image: url(./img/Hero-bg.png);
     height: 652px;
+    margin: 0 auto 70px;
 }
 
-.hero-section>img {
+.hero-section img {
     padding: 40px 0;
-    width: 240.28px;
+    width: 240px;
     height: 240px;
 }
 
 .hero-section-content {
     padding: 0 221px;
+    text-align: center;
 }
 
-.hero-section-content>h1 {
-    text-align: center;
+.hero-section-content h1 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 48px;
     font-weight: 800;
 }
 
-.hero-section-content>p {
+.hero-section-content p {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
-    text-align: center;
+    
+    line-height: 24px;
+    margin: 10px auto;
 }
 
-.hero-section>button {
+.hero-section button {
     width: 250px;
     height: 66px;
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 18px;
     font-weight: 600;
-    padding: 21px 24px 21px 24px;
-    margin: 32px 0px;
+    padding: 21px 24px;
     border-radius: 8px;
     background: rgb(13, 19, 33);
+    margin: 32px 0px;
 }
 
 /* hero-section ends here */
@@ -94,28 +87,20 @@ body {
 /* second-section-starts */
 .second-section-margin {
     width: 1140px;
-    display: flex;
-    margin: 0 auto;
-    padding: 80px 97px 80px 97px;
+    padding: 80px 97px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
 }
 
 .second-section {
-    width: 946px;
-    height: 1235px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-    margin: 0px auto;
 }
 
-.second-section>.first-row {
+.first-row{
     width: 852px;
     height: 115px;
     display: flex;
@@ -123,25 +108,26 @@ body {
     justify-content: flex-start;
     align-items: center;
     text-align: center;
-
+    padding-bottom: 40px;
     margin: 38px 0px;
 }
 
-.second-section>.first-row>h1 {
+.first-row h1{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    padding: 0 0 20px 0px;
+    line-height: 36px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
-.second-section>.first-row>p {
+.first-row p,
+.second-row p,
+.third-row p {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 16px;
+    line-height: 26px;
     font-weight: 400;
-    text-align: center;
 }
 
 /* 1st row of second-section ends here*/
@@ -156,51 +142,49 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 48px;
+    margin-bottom: 40px;
 
 }
 
-.second-row>.second-row-contents {
+.second-row-contents,
+.third-row-contents {
     width: 477px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0px 10px;
-    align-self: stretch;
+    text-align: left;
 }
 
-.second-row>.second-row-contents>h3 {
+.second-row-contents h3,
+.third-row-contents h3,
+.fourth-row-contents h3 {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 700;
-    padding: 0 0 14px 0;
+    line-height: 36px;
+    padding-bottom: 14px;
 }
 
-.second-row>.second-row-contents>p {
+.second-row-contents p,
+.fourth-row-contents p,
+.third-row-contents>p {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
     padding: 0 0 38px 0;
 }
 
-.second-row>.second-row-contents>button {
-    position: static;
+.second-row-contents button,
+.third-row-contents button,
+.fourth-row-contents button {
     width: 200px;
     height: 48px;
-    /* Auto layout */
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    padding: 12px 20px;
+    font-weight: 600;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 12px 20px 12px 20px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
 }
 
 /* 2nd row of second-section ends here*/
@@ -215,50 +199,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 48px;
-}
-
-.third-row>.third-row-contents {
-    width: 477px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0px 10px;
-    align-self: stretch;
-}
-
-.third-row>.third-row-contents>h3 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 0 0 14px 0;
-}
-
-.third-row>.third-row-contents>p {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0 0 38px 0;
-}
-
-.third-row>.third-row-contents>button {
-    position: static;
-    width: 200px;
-    height: 48px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px 12px 20px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+    margin-bottom: 40px;
 }
 
 /* 3rd row of second-section ends here*/
@@ -272,50 +213,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 48px;
-}
-
-.fourth-row>.fourth-row-contents {
-    width: 477px;
-    height: 220px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 0px;
-    margin: 0px 10px;
-    align-self: stretch;
-}
-
-.fourth-row>.fourth-row-contents>h3 {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 24px;
-    font-weight: 700;
-    padding: 0 0 14px 0;
-}
-
-.fourth-row>.fourth-row-contents>p {
-    color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
-    font-size: 16px;
-    font-weight: 400;
-    padding: 0 0 38px 0;
-}
-
-.fourth-row>.fourth-row-contents>button {
-    position: static;
-    width: 200px;
-    height: 48px;
-    /* Auto layout */
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 20px 12px 20px;
-    color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
-    font-size: 20px;
-    font-weight: 600;
+    margin-bottom: 40px;
 }
 
 /* Second-section ends here*/
@@ -327,13 +225,14 @@ body {
     height: 775px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     padding: 0px;
-    margin: 80px auto 80px;
+    margin: 40px auto 0;
+    margin-bottom: 40px;
 }
 
-.third-section>.third-section-contents {
+.third-section-contents {
     width: 852px;
     height: 115px;
     display: flex;
@@ -345,7 +244,7 @@ body {
     margin: 38px 0px;
 }
 
-.third-section>.third-section-contents>h3 {
+.third-section-contents h3 {
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 32px;
@@ -354,7 +253,7 @@ body {
     text-align: center;
 }
 
-.third-section>.third-section-contents>p {
+.third-section-contents p {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
@@ -362,7 +261,7 @@ body {
     text-align: center;
 }
 
-.third-section>.Inspiration-video {
+.Inspiration-video {
     border: 1;
     margin: 10px 0px;
     box-sizing: border-box;
@@ -375,46 +274,43 @@ body {
 /* third section ends here */
 
 /* fourth section starts here */
-.fourth-section {
+.fourth-section{
     width: 1140px;
-    height: 775px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     padding: 0px;
-    margin: 80px auto 80px;
+    margin: 40px auto 0;
 }
 
-.fourth-section>.fourth-section-heading,
+.fourth-section-heading,
 .fifth-section-heading {
     width: 852px;
-    height: 115px;
+    height: 100px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
     text-align: center;
-
-    margin: auto 0px;
+    margin: 50px 0px;
 }
 
-.fourth-section>.fourth-section-heading>h3,
-.fifth-section-heading>h3 {
+.fourth-section-heading h3{
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 800;
-    padding: 0 0 20px 0px;
+    padding: 10px;
     text-align: center;
+    margin: 0 ;
 }
 
-.fourth-section>.fourth-section-heading>p,
-.fifth-section-heading>p {
+.fourth-section-heading p,
+.fifth-section-heading p {
     color: rgba(13, 19, 33, 0.7);
-    font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
     text-align: center;
 }
 
@@ -431,9 +327,9 @@ body {
     margin: 48px 0px;
 }
 
-.fourth-section-skills>.skill-1 {
+.skill-1 {
     width: 284px;
-    height: 219px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -444,14 +340,13 @@ body {
     background: rgba(255, 76, 30, 0.05);
 }
 
-.fourth-section-skills>.skill-1>h2,
-.skill-2>h2,
-.skill-3>h2,
-.column-1-content>h2,
-.column-2-content>h2,
-.column-3-content>h2 {
+.skill-1 h2,
+.skill-2 h2,
+.skill-3 h2,
+.column-1-content h2,
+.column-2-content h2,
+.column-3-content h2 {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 24px;
     font-weight: 800;
     text-align: left;
@@ -464,25 +359,26 @@ body {
     margin: 8px 0px;
 }
 
-.fourth-section-skills>.skill-1>img,
-.skill-2>img,
-.skill-3>img {
+.skill-1 img,
+.skill-2 img,
+.skill-3 img {
     width: 56px;
     height: 56px;
     text-align: left;
 
 }
 
-.fourth-section-skills>.skill-1>p,
-.skill-2>p,
-.skill-3>p,
-.column-1-content>p,
-.column-2-content>p,
-.column-3-content>p {
+.skill-1 p,
+.skill-2 p,
+.skill-3 p,
+.column-1-content p,
+.column-2-content p,
+.column-3-content p {
     color: rgba(13, 19, 33, 0.7);
     font-family: Azeret Mono;
     font-size: 16px;
     font-weight: 400;
+    line-height: 26px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -493,12 +389,12 @@ body {
     text-align: left;
 }
 
-.fourth-section-skills>.skill-1>a,
-.skill-2>a,
-.skill-3>a,
-.column-1-content>a,
-.column-2-content>a,
-.column-3-content>a {
+.skill-1 a,
+.skill-2 a,
+.skill-3 a,
+.column-1-content a,
+.column-2-content a,
+.column-3-content a {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -514,9 +410,9 @@ body {
     text-decoration-line: underline;
 }
 
-.fourth-section-skills>.skill-2 {
+.skill-2 {
     width: 284px;
-    height: 219px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -527,9 +423,9 @@ body {
     background: rgba(0, 76, 232, 0.05);
 }
 
-.fourth-section-skills>.skill-3 {
+.skill-3 {
     width: 284px;
-    height: 219px;
+    height: 320px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -545,42 +441,52 @@ body {
 /* fifth section starts here */
 .fifth-section {
     width: 1140px;
-    height: 866px;
+    height:900px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding: 0px;
-    margin: 111px auto;
+    padding: 40px;
+    margin: 0 auto 120px;
 }
-
+.fifth-section-heading h3 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    padding: 0;
+    text-align: center;
+    margin: auto 0 40px;
+}
 
 .column-1,
 .column-2,
 .column-3 {
     width: 1140px;
-    height: 219px;
+    height: 230px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items: center;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding: 40px;
-    margin: 24px auto;
+    margin: 20px auto;
 }
 
-.column-1>.column-1-img,
-.column-2>.column-2-img,
-.column-3>.column-3-img {
+.column-1 .column-1-img,
+.column-2 .column-2-img,
+.column-3 .column-3-img {
+    width: 20%;
     padding: 0 30px 0 0;
 }
 
-.column-1>.column-1-content,
-.column-2>.column-2-content,
-.column-3>.column-3-content {
+.column-1 .column-1-content,
+.column-2 .column-2-content,
+.column-3 .column-3-content {
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -591,17 +497,17 @@ body {
 
 .support-section {
     width: 1140px;
-    height: 313px;
+    height: 370px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 64px 48px 64px 48px;
+    padding: 64px 48px;
     border-radius: 16px;
     background-image: url(./img/handshake.jpg);
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
-    margin: 0 auto 50px;
+    margin: 50px auto;
 }
 
 .support-section-content,
@@ -609,44 +515,33 @@ body {
     margin: auto;
 }
 
-.support-section-content>h3 {
+.support-section-content h3 {
     width: 292px;
     height: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
     margin: 16px auto;
     color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
-    line-height: 36px;
     text-align: center;
 }
 
-.support-section-content>p {
-    position: static;
+.support-section-content p {
     width: 606px;
     height: 52px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
     margin: 16px 0px;
-    color: rgb(255, 255, 255);
-    font-family: Azeret Mono;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    letter-spacing: 0%;
     text-align: center;
 }
 
 input {
-    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 19px 20px;
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
@@ -655,13 +550,11 @@ input {
     height: 57px;
 }
 
-form>button {
+form button {
     color: rgb(13, 19, 33);
-    font-family: Azeret Mono;
     font-size: 20px;
     font-weight: 600;
-    line-height: 23px;
-    padding: 17px 20px 17px 20px;
+    padding: 17px 20px;
     border-radius: 8px;
     background: rgb(255, 255, 255);
     width: 120px;
@@ -670,15 +563,14 @@ form>button {
 }
 
 footer {
-   position: static;
-width: 1140px;
-height: 36px;
-/* Auto layout */
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-margin: auto;
+    position: static;
+    width: 1140px;
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
     padding: 32px 150px 32px 150px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.03);
@@ -686,21 +578,21 @@ margin: auto;
 
 .footer-section>h3 {
     display: flex;
-flex-direction: row;
-justify-content: flex-start;
-align-items: center;
-padding: 0px;
-color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-line-height: 23px;
-letter-spacing: 0%;
-text-align: center;
-    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 
 .social-links>img {
     width: 36px;
-height: 36px;
+    height: 36px;
 }
